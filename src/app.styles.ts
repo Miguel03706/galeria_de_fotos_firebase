@@ -26,4 +26,31 @@ export const ScreenWarning = styled.div`
         font-size: 50px;
         margin-bottom: 30px;
     }
-` 
+`;
+
+export const PhotoList = styled.div`
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+`;
+
+export const UploadForm = styled.form`
+    background-color: #3d3f43;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    input[type=submit]{
+        background-color: #756df4;
+        border: 0px;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 10px;
+        margin: 0px 20px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+`;
